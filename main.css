@@ -55,14 +55,14 @@ header nav{
     display: flex;
     text-align: center;
     align-items: center;
-    height: 650px;
+    height: 900px;
     gap: 10px;
     background-color: #7C7C7C;
 }
 
 .tarjeta{
     width: 280px;
-    height: 350px;   /* 👈 MISMO ALTO PARA TODAS */
+    height: 350px;   
     background: #1c1c1c;
     color: white;
 
@@ -80,12 +80,58 @@ header nav{
 }
 
 #clases{
-    
+    background: url("./img/fondo-gym.jpg") center/cover no-repeat;
+    padding: 80px 100px;
+    color: white;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px 80px;
 }
 
-section h2{
-    
-
-.cards img{
-    
+/* subtitulo ACTIVIDADES */
+.subtitulo{
+    grid-column: 1 / -1;
+    text-align: center;
+    color:orangered;
+    font-size: 18px;
+    margin: 0;
 }
+
+/* titulo principal */
+.titulo{
+    grid-column: 1 / -1;
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 40px;
+}
+
+/* cada actividad */
+.actividad{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* iconos */
+.actividad img{
+    width: 60px;
+    height: 60px;
+}
+
+/* titulo ZUMBA, GAP, etc */
+.actividad h4{
+    color: orangered;
+    font-size: 22px;
+    margin: 0 0 5px 0;
+}
+
+/* texto */
+.actividad p{
+    margin: 0;
+    color: #ccc;
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+

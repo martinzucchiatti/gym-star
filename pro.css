@@ -1,0 +1,44 @@
+ *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+header{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* eje vertiacl centrado */
+}
+
+header img{
+    width: 10%;
+
+}
+
+header nav{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-right: 20px;
+}
+
+        body{
+            background:#111;
+            color:#fff;
+        }
+
+        #planes { 
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 650px;
+    gap: 10px;
+    background-color: #7C7C7C;
+}
+
+
+
+
+
